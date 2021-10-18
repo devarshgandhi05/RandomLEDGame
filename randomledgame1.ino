@@ -71,8 +71,8 @@ void loop()
   if(redMode<easyLvl){
     int redValue=redMode*(max/easyLvl);
     analogWrite(Xred,redValue);
-    Serial.println("Red Value is");
-    Serial.println(redValue);
+    //Serial.println("Red Value is");
+    //Serial.println(redValue);
     delay(1000);
     
   }
